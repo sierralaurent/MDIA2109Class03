@@ -1,0 +1,20 @@
+[
+    {
+        "empolyeeName": "Steve Smith",
+        "employeeAge": 32,
+        "department": "Business",
+        "degree": "Finance",
+    },
+    {
+        "empolyeeName": "Sandy Bitters",
+        "employeeAge": 28,
+        "department": "Business",
+        "degree": "Accounting",
+    },
+    {
+        "empolyeeName": "Randy Botts",
+        "employeeAge": 29,
+        "department": "Computing",
+        "degree": "Applied Software Development Certificate",
+    }
+]

@@ -38,22 +38,6 @@ export default function About() {
                             employee={info.employeeName} 
                             age={info.employeeAge}
                             degree={info.degree} 
-                            depart={info.department}
-                            colour="blue" font="30px" />
-                        )
-                    }
-                })
-            }
-            <div>Employee #3</div>
-            {
-                information && information.map((info, about) => {
-                    if (info.employeeName === "Randy Botts") {
-                        return (
-                            <Card1 key={about} 
-                            employee={info.employeeName} 
-                            age={info.employeeAge}
-                            degree={info.degree} 
-                            depart={info.department}
                             colour="blue" font="30px" />
                         )
                     }

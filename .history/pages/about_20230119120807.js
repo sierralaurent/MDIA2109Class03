@@ -14,22 +14,21 @@ export default function About() {
         <>
             <div>About page</div>
          
-            <div>Employee #1:</div>
+            <div>Employees:</div>
             {
                 information && information.map((info, about) => {
-                    if (info.employeeName === "Steve Smith") {
+                    if (info.degree === "Finance") {
                         return (
                             <Card1 key={about} 
                             employee={info.employeeName}
                             age={info.employeeAge}
                             degree={info.degree}
-                            depart={info.department} 
-                            colour="red" font="10px" />
+                            depart={info.department} colour="red" font="10px" />
                         )
                     }
                 })
             }
-            <div>Employee #2</div>
+            <div>Computing Degrees:</div>
             {
                 information && information.map((info, about) => {
                     if (info.employeeName === "Sandy Bitters") {
@@ -37,24 +36,7 @@ export default function About() {
                             <Card1 key={about} 
                             employee={info.employeeName} 
                             age={info.employeeAge}
-                            degree={info.degree} 
-                            depart={info.department}
-                            colour="blue" font="30px" />
-                        )
-                    }
-                })
-            }
-            <div>Employee #3</div>
-            {
-                information && information.map((info, about) => {
-                    if (info.employeeName === "Randy Botts") {
-                        return (
-                            <Card1 key={about} 
-                            employee={info.employeeName} 
-                            age={info.employeeAge}
-                            degree={info.degree} 
-                            depart={info.department}
-                            colour="blue" font="30px" />
+                            degree={info.degree} colour="blue" font="30px" />
                         )
                     }
                 })
