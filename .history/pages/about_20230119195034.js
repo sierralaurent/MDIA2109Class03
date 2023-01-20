@@ -50,7 +50,7 @@ export default function About() {
                 })
             }
          </div>
-         <div className={styles.childC}>
+         <div>
          <div>Employee #3</div>
             {
                 information && information.map((info, about) => {

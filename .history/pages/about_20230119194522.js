@@ -12,11 +12,9 @@ export default function About() {
     const [information, setInformation] = useState([...data])
     return (
         <>
-        <main className={styles.main}>
-            <div className={styles.description}>
             <div>About page</div>
-         <div className={styles.grid}>
-         <div className={styles.childA}>
+         <div>
+         <div>
          <div>Employee #1:</div>
             {
                 information && information.map((info, about) => {
@@ -33,7 +31,7 @@ export default function About() {
                 })
             }
          </div>
-         <div className={styles.childB}>
+         <div>
          <div>Employee #2</div>
             {
                 information && information.map((info, about) => {
@@ -44,13 +42,13 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="blue" font="10px" />
+                            colour="blue" font="30px" />
                         )
                     }
                 })
             }
          </div>
-         <div className={styles.childC}>
+         <div>
          <div>Employee #3</div>
             {
                 information && information.map((info, about) => {
@@ -61,16 +59,13 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="blue" font="10px" />
+                            colour="blue" font="30px" />
                         )
                     }
                 })
             }
          </div>
          </div>
-            </div>
-        </main>
-            
          
             
             </>

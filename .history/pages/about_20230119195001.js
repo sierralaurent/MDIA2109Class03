@@ -44,13 +44,13 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="blue" font="10px" />
+                            colour="blue" font="30px" />
                         )
                     }
                 })
             }
          </div>
-         <div className={styles.childC}>
+         <div>
          <div>Employee #3</div>
             {
                 information && information.map((info, about) => {
@@ -61,7 +61,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="blue" font="10px" />
+                            colour="blue" font="30px" />
                         )
                     }
                 })

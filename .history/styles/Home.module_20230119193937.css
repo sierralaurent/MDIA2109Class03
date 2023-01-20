@@ -5,7 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, rgb(147, 255, 255), rgb(196, 196, 196));
+  background-image: linear-gradient(to bottom right, rgb(124, 255, 255), rgb(196, 196, 196));
 }
 
 .description {
@@ -45,7 +45,7 @@
 .grid {
   display: grid;
   grid-template:
-  "a b c" 
+  "a b" 
   ;
   gap: 20px;
   width: 500px;
@@ -59,18 +59,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100px;
 }
 .childB {
   grid-area: b;
-  background-color: whitesmoke;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.childC {
-  grid-area: c;
   background-color: whitesmoke;
   color: black;
   display: flex;

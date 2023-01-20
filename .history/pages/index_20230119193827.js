@@ -45,7 +45,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "business") {
             return(
-              <Card key={index} degree={info.degree} colour="red" font="10px" width="400px"/>
+              <Card key={index} degree={info.degree} colour="red" font="10px" width="100px"/>
             )
             }
           })
@@ -57,7 +57,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px" width="400px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
             )
             }
           })

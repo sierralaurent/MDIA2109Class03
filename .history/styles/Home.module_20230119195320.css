@@ -5,7 +5,7 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
-  background-image: linear-gradient(to bottom right, rgb(147, 255, 255), rgb(196, 196, 196));
+  background-image: linear-gradient(to bottom right, rgb(124, 255, 255), rgb(196, 196, 196));
 }
 
 .description {
