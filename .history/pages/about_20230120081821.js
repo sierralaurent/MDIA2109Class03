@@ -12,8 +12,8 @@ export default function About() {
     const [information, setInformation] = useState([...data])
     return (
         <>
-        <div className={styles.code}>About Page</div>
         <main className={styles.main}>
+        <div className={styles.code}>About Page</div>
             <div className={styles.description}></div>
          <div className={styles.grid}>
          <div className={styles.childA}>
@@ -28,7 +28,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree}
                             depart={info.department} 
-                            colour="red" font="20px" />
+                            colour="red" font="10px" />
                         )
                     }
                 })
@@ -47,7 +47,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="10px" />
                         )
                     }
                 })
@@ -66,7 +66,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="10px" />
                         )
                     }
                 })

@@ -47,7 +47,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="20px" />
                         )
                     }
                 })
@@ -66,7 +66,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="20px" />
                         )
                     }
                 })

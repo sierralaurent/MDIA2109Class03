@@ -15,7 +15,7 @@ export default function About() {
         <div className={styles.code}>About Page</div>
         <main className={styles.main}>
             <div className={styles.description}></div>
-         <div className={styles.grid}>
+         <div className={styles.center}>
          <div className={styles.childA}>
             <div className={styles.pickle}>
             <div>Employee #1:</div>
@@ -28,7 +28,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree}
                             depart={info.department} 
-                            colour="red" font="20px" />
+                            colour="red" font="10px" />
                         )
                     }
                 })
@@ -47,7 +47,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="10px" />
                         )
                     }
                 })
@@ -66,7 +66,7 @@ export default function About() {
                             age={info.employeeAge}
                             degree={info.degree} 
                             depart={info.department}
-                            colour="red" font="20px" />
+                            colour="blue" font="10px" />
                         )
                     }
                 })
