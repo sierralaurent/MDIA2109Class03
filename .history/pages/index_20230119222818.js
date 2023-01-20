@@ -40,32 +40,28 @@ export default function Home() {
 
         <div className={styles.grid}>
           <div className={styles.childA}>
-            <div className={styles.pickle}>
-            <div>Business Degrees:</div>
+          <div>Business Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "business") {
-            return( 
-              <Card key={index} degree={info.degree} colour="red" font="10px"/>
+            return(
+              <Card key={index} degree={info.degree} font="10px"/>
             )
             }
           })
          }
-            </div>
           </div>
          <div className={styles.childB}>
-          <div className={styles.pickle}>
-          <div>Computing Degrees:</div>
+         <div>Computing Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="10px" width="400px"/>
             )
             }
           })
          }
-          </div>
          </div>
 
         </div>

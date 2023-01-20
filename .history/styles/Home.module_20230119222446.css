@@ -9,7 +9,7 @@
 }
 .pickle {
   font-size: 20px;
-  color: black;
+  color: blue;
   background-color: orange;
 }
 .description {
@@ -18,7 +18,7 @@
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 100%; 
+  width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }

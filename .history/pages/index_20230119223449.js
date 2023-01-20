@@ -60,7 +60,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="10px" width="400px"/>
             )
             }
           })

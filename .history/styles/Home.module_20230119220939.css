@@ -7,18 +7,14 @@
   min-height: 100vh;
   background-image: linear-gradient(to bottom right, rgb(147, 255, 255), rgb(196, 196, 196));
 }
-.pickle {
-  font-size: 20px;
-  color: black;
-  background-color: orange;
-}
+
 .description {
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   font-size: 0.85rem;
   max-width: var(--max-width);
-  width: 100%; 
+  width: 100%;
   z-index: 2;
   font-family: var(--font-mono);
 }
@@ -42,8 +38,7 @@
 }
 
 .code {
-  font-size: 45px;
-  color: black;
+  font-weight: 700;
   font-family: var(--font-mono);
 }
 
@@ -226,7 +221,8 @@
     "a b c" 
     ;
     gap: 20px;
-    
+    width: 500px;
+    height: 500px;
   }
   .childA {
     grid-area: a;
@@ -237,7 +233,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 150px;
   }
   .childB {
     grid-area: b;
@@ -248,7 +243,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 150px;
   }
   .childC {
     grid-area: c;
@@ -259,7 +253,6 @@
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 150px;
   }
 
   .card {

@@ -54,13 +54,13 @@ export default function Home() {
             </div>
           </div>
          <div className={styles.childB}>
-          <div className={styles.pickle}>
+          <div>
           <div>Computing Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="10px" width="400px"/>
             )
             }
           })

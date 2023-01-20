@@ -13,12 +13,11 @@ export default function About() {
     return (
         <>
         <main className={styles.main}>
-        <div className={styles.code}>About Page</div>
-            <div className={styles.description}></div>
+        <div>About page</div>
+            <div className={styles.description}>
          <div className={styles.grid}>
          <div className={styles.childA}>
-            <div className={styles.pickle}>
-            <div>Employee #1:</div>
+         <div>Employee #1:</div>
             {
                 information && information.map((info, about) => {
                     if (info.employeeName === "Steve Smith") {
@@ -33,11 +32,9 @@ export default function About() {
                     }
                 })
             }
-            </div>
          </div>
          <div className={styles.childB}>
-            <div className={styles.pickle}>
-            <div>Employee #2</div>
+         <div>Employee #2</div>
             {
                 information && information.map((info, about) => {
                     if (info.employeeName === "Sandy Bitters") {
@@ -52,11 +49,9 @@ export default function About() {
                     }
                 })
             }
-            </div>
          </div>
          <div className={styles.childC}>
-            <div className={styles.pickle}>
-            <div>Employee #3</div>
+         <div>Employee #3</div>
             {
                 information && information.map((info, about) => {
                     if (info.employeeName === "Randy Botts") {
@@ -71,9 +66,9 @@ export default function About() {
                     }
                 })
             }
+         </div>
+         </div>
             </div>
-         </div>
-         </div>
         </main>
             
          
