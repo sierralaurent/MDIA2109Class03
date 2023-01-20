@@ -7,6 +7,11 @@ import { useState } from 'react'
 import Card from '../components/card'
 import Link from 'next/link'
 
+var head = document.getElementsByTagName('HEAD')[0];
+var link = document.createElement('link');
+link.rel = 'stylesheet';
+link.type = 'text/css';
+link.href = 'style.css';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +28,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main className={styles.main} class="parent">
         <div className={styles.description}>
           <p>
             <Link href="about">About</Link>
@@ -39,7 +44,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.childA}>
+
           <div>Business Degrees:</div>
          {
           information && information.map((info, index) => {
@@ -50,19 +55,16 @@ export default function Home() {
             }
           })
          }
-          </div>
-         <div className={styles.childB}>
          <div>Computing Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="30px"/>
             )
             }
           })
          }
-         </div>
 
         </div>
       </main>

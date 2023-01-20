@@ -45,11 +45,10 @@
 .grid {
   display: grid;
   grid-template:
-  "a b" 
+  "a b" 600px
   ;
   gap: 20px;
-  width: 500px;
-  height: 500px;
+  
 }
 .childA {
   grid-area: a;

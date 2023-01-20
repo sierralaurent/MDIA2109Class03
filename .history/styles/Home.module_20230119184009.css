@@ -45,29 +45,19 @@
 .grid {
   display: grid;
   grid-template:
-  "a b" 
+  "a a b b" 100px
   ;
   gap: 20px;
-  width: 500px;
-  height: 500px;
+  width: var(--max-width);
+  max-width: 100%;
 }
 .childA {
   grid-area: a;
   background-color: whitesmoke;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .childB {
   grid-area: b;
   background-color: whitesmoke;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 .card {
   padding: 1rem 1.2rem;

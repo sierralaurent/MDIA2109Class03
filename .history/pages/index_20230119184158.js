@@ -39,8 +39,8 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.childA}>
-          <div>Business Degrees:</div>
+
+          <div className={styles.childA}>Business Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "business") {
@@ -50,19 +50,16 @@ export default function Home() {
             }
           })
          }
-          </div>
-         <div className={styles.childB}>
-         <div>Computing Degrees:</div>
+         <div className={styles.childB}>Computing Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="30px"/>
             )
             }
           })
          }
-         </div>
 
         </div>
       </main>

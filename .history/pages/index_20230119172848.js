@@ -7,7 +7,6 @@ import { useState } from 'react'
 import Card from '../components/card'
 import Link from 'next/link'
 
-
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -39,7 +38,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.childA}>
+
           <div>Business Degrees:</div>
          {
           information && information.map((info, index) => {
@@ -50,19 +49,16 @@ export default function Home() {
             }
           })
          }
-          </div>
-         <div className={styles.childB}>
          <div>Computing Degrees:</div>
          {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="blue" font="10px"/>
+              <Card key={index} degree={info.degree} colour="blue" font="30px"/>
             )
             }
           })
          }
-         </div>
 
         </div>
       </main>
