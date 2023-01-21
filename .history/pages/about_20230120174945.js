@@ -16,6 +16,9 @@ export default function About() {
         <main className={styles.main}>
             <div className={styles.description}></div>
          <div className={styles.grid}>
+         <div class="tenor-gif-embed" 
+         data-postid="19367344" data-share-method="host" data-aspect-ratio="1.12676" data-width="100%">
+            <a href="https://tenor.com/view/dance-funny-gif-19367344">Dance Funny Sticker</a>from <a href="https://tenor.com/search/dance-stickers">Dance Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
          <div className={styles.childA}>
             <div className={styles.pickle}>
             <div>Employee #1:</div>

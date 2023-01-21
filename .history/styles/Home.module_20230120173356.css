@@ -101,22 +101,22 @@
   .pickle {
     font-size: 20px;
     color: black;
-    background-color: white;
+    background-color: whitesmoke;
     box-shadow: 10px 10px 5px rgb(173, 173, 173);
     padding: 30px 30px;
     border-radius: 20px;
   }
 .childA {
   grid-area: a;
-  background-color: white;
+  background-color: whitesmoke;
   color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 20rem;
-  height: 20rem;
+width: 300px;
+height: 300px;
 }
 .childB {
   grid-area: b;
@@ -127,23 +127,22 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 20rem;
-  height: 20rem;
+width: 300px;
+height: 300px;
 }
+
+  .description p {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100px;
+  }
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
-  }
-  .childA {
-    width: 25rem;
-    height: 25rem;
-  }
-  .childB {
-    width: 25rem;
-    height: 25rem;
   }
 }
 

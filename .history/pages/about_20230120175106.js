@@ -16,6 +16,7 @@ export default function About() {
         <main className={styles.main}>
             <div className={styles.description}></div>
          <div className={styles.grid}>
+            <div className={styles.minion}></div>
          <div className={styles.childA}>
             <div className={styles.pickle}>
             <div>Employee #1:</div>

@@ -185,9 +185,3 @@
     height: 250px;
     }
 }
-@media (min-width: 701px) and (max-width: 1120px) {
-  .grid {
-    grid-template-columns: repeat(2, 50%);
-  }
-  
-}

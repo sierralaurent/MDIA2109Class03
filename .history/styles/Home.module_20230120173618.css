@@ -115,8 +115,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 20rem;
-  height: 20rem;
+width: 20rem;
+height: 20rem;
 }
 .childB {
   grid-area: b;
@@ -127,23 +127,22 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  width: 20rem;
-  height: 20rem;
+width: 300px;
+height: 300px;
 }
+
+  .description p {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100px;
+  }
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
     grid-template-columns: repeat(2, 50%);
-  }
-  .childA {
-    width: 25rem;
-    height: 25rem;
-  }
-  .childB {
-    width: 25rem;
-    height: 25rem;
   }
 }
 

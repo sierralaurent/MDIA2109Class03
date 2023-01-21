@@ -138,12 +138,8 @@
     grid-template-columns: repeat(2, 50%);
   }
   .childA {
-    width: 25rem;
-    height: 25rem;
-  }
-  .childB {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
   }
 }
 

@@ -50,7 +50,7 @@ export default function Home() {
           information && information.map((info, index) => {
             if(info.department.toLowerCase() === "computing") {
             return(
-              <Card key={index} degree={info.degree} colour="white" font="20px"/>
+              <Card key={index} degree={info.degree} colour="rgb(190, 255, 255)" font="20px"/>
             )
             }
           })
@@ -60,7 +60,6 @@ export default function Home() {
 
         </div>
       </main>
-      
     </>
   )
 }

@@ -28,6 +28,8 @@ export default function Home() {
       <div className={styles.bigButton}>
       <p className={styles.button}><Link href="about">About</Link> </p>
       </div>
+        <div className={styles.description}>
+        </div>
         <div className={styles.grid}>
           <div className={styles.childA}>
             <div className={styles.pickle}>
@@ -60,7 +62,6 @@ export default function Home() {
 
         </div>
       </main>
-      
     </>
   )
 }

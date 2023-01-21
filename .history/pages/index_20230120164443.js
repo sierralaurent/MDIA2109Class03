@@ -23,11 +23,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
       <main className={styles.main}>
-      <div className={styles.bigButton}>
-      <p className={styles.button}><Link href="about">About</Link> </p>
-      </div>
+        <div className={styles.description}>
+          <p>
+            <Link href="about">About</Link>
+          </p>
+          <div>
+            <a
+              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            </a>
+          </div>
+        </div>
+
         <div className={styles.grid}>
           <div className={styles.childA}>
             <div className={styles.pickle}>
@@ -60,7 +70,6 @@ export default function Home() {
 
         </div>
       </main>
-      
     </>
   )
 }
